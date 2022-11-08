@@ -1,0 +1,5 @@
+# Procfile
+web=: java -jar Dquarkus.http.port=$PORT target/quarkus-app/quarkus-run.jar
+
+#system.properties
+java.runtime.version=17
